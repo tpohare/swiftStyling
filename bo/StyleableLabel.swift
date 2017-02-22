@@ -15,6 +15,14 @@ class StyleableLabel:UILabel {
         }
     }
     
+    override var text: String? {
+        didSet {
+            if self.className != "" {
+                self.setClass(to: self.className)
+            }
+        }
+    }
+    
     func setClass(to theClass:String) -> Void {
         self.numberOfLines = 0
         self.attributedText = NSAttributedString(string: self.text!,

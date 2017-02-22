@@ -11,12 +11,14 @@
 	</dict>
 	<key>p</key>
 	<dict>
+		<key>lineHeight</key>
+		<string>20</string>
 		<key>align</key>
-		<string>right</string>
+		<string>left</string>
 		<key>font</key>
 		<string>Georgia</string>
 		<key>font-size</key>
-		<string>16</string>
+		<string>18</string>
 	</dict>
 </dict>
 </plist>

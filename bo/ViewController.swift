@@ -17,8 +17,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //h1.setClass(to: "h1")
-        //p.setClass(to: "p")
-        //bold.setClass(to: "strong")
+        p.text = "Sh";
     }
 }
